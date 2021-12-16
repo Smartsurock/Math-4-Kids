@@ -91,6 +91,9 @@ h6 {
 .header__title {
   color: #fff;
 }
+.header__title:hover {
+  text-decoration: underline;
+}
 .header__nav {
   display: flex;
 }
@@ -138,6 +141,7 @@ h6 {
   box-shadow: 5px 5px 10px #000;
   border-radius: 5px;
   position: relative;
+  user-select: none;
 }
 .body__var:active {
   top: 2px;
